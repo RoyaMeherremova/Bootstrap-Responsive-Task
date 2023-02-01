@@ -1,0 +1,289 @@
+.products{
+    
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+   
+  
+   
+}
+ .shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoes{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+    width: 230px;
+    height: 430px;
+    border-radius: 15px;
+    background-color: white;
+     
+   
+    
+}
+.shoes img{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding:5px;
+    width: 180px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+.products h1{
+    font-weight:590;
+    text-align: center;
+  
+}
+
+.products p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.products h2{
+    text-align: center;
+    font-weight: 500;
+}
+.earphone{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    width: 230px;
+    height: 430px;
+    border-radius: 15px;
+    background-color: white;
+
+    
+}
+.earphone img{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding:5px;
+    width: 180px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+.watch{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    width: 230px;
+    height: 430px;
+    border-radius: 15px;
+    background-color: white;
+   
+   
+}
+.watch img{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding:5px;
+    width: 180px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+.phone{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    width: 230px;
+    height: 430px;
+    border-radius: 15px;
+    background-color: white;
+ 
+    
+}
+.phone img{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding:5px;
+    width: 180px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+.products .foot{
+    width: 100%;
+    height: 60px;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.part1{
+    background-color:#0c81a0 ;
+
+}
+.part2{
+    background-color:#3d3e6b ;
+
+}
+.part3{
+    background-color:black ;
+
+}
+.part4{
+    background-color:#ffa14b ;
+
+}
+
+.foot{
+    margin-bottom: 50px;
+}
+
+.foot  a {
+    
+    color:white;
+    font-size: 20px;
+    font-weight:500;
+    text-decoration: none;
+    
+}
+.icons{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.icons a i{
+    
+padding-top: 5px;
+    margin:3px;
+  font-size: 35px;
+  
+}
+.icons i:hover {
+    color: #ffa14b;
+  }
+  @media only screen and (max-width: 576px) {
+    body {
+    } 
+    
+     .products div{
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+       
+         }    
+ }
+@media only screen and (max-width: 768px) {
+    body {
+    } 
+    
+     .products div{
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+       
+     }
+     
+    .products img{
+       margin-right: 20px;
+        width: 100px;
+        height: 90px;
+       
+    }
+      .products div .foot{
+      
+      
+
+     }
+     .products h1{
+        font-size: 20px;
+     }
+     .products p{
+        font-size: small;
+     }
+      .products h2{
+        font-size: 20px;
+     }
+     .foot a{
+        font-size: 10px;
+     }
+     
+      }
+     
+    @media only screen and (max-width: 992px) {
+         body { 
+        } 
+        
+     .products div{
+        justify-content: center;
+        align-items: center;
+        text-align: center;    
+     }
+     .icons {
+        margin-top: 10px;
+       
+     }
+     .icons i{
+        font-size: 15px;
+     }
+    .products img{
+       margin-right: 20px;
+        width: 130px;
+        height: 120px;
+       
+    }
+      .products div .foot{
+     
+       height:50px ;
+       margin-top:55px;
+
+     }
+     .icons {
+        margin-top: 20px;
+       
+     }
+     .icons i{
+        font-size: 25px;
+     }
+     .products h1{
+        font-size: 25px;
+     }
+     .products p{
+        font-size:medium;
+     }
+      .products h2{
+        font-size: 25px;
+     }
+     .foot a{
+        font-size: 14px;
+     }
+     
+      }
+     
+                      
+          
+    
+   
